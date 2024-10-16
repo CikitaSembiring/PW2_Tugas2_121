@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #d7ccc8, #8d6e63); /* Gradasi cokelat dari terang ke gelap */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+h1 {
+    background: linear-gradient(to right, #6d4c41, #3e2723); /* Gradasi cokelat tua ke sangat tua */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    color: #5d4037; /* Cokelat gelap */
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #8d6e63;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #efebe9; /* Warna latar belakang cokelat sangat lembut */
+    color: #3e2723;
+}
+
+input[type="submit"] {
+    background: linear-gradient(to right, #8d6e63, #5d4037); /* Gradasi cokelat pada tombol */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(to right, #5d4037, #3e2723); /* Gradasi lebih gelap saat hover */
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent card background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.card p {
+    font-size: 16px;
+    color: #5d4037; /* Cokelat gelap */
+    margin: 10px 0;
+}
+
+.card img {
+    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
